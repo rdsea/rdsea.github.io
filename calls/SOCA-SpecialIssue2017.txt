@@ -1,0 +1,54 @@
+﻿Call for Papers
+	Special Issue on  Service Oriented Computing & Applications 
+
+published by
+
+	SOCA Journal, Springer
+	http://www.springer.com/computer/communication+networks/journal/11761
+
+Scope
+                                
+Extensive research and development in the past few years has pushed Service Oriented Computing (SOC) technology into state-of-the-art applications in emerging areas such as Cloud computing, Internet-of-Things (IoT), Machine-to-Machine (M2M) communication,  Cyber-Physical Systems (CPSs), Mobile-Edge Computing, Social computing  as well as mobile and enterprise systems.  On the one hand, these areas have successfully employed SOC techniques for both systems and applications developed. On the other hand,  the exploitation of service-oriented computing techniques for building SOC applications (SOCA) and systems across diverse types of resources, systems and infrastructures apparently in these areas is still an open research challenge.
+
+
+This special issue will feature high-quality papers describing fully developed novel techniques and frameworks as well as experiences and lessons learned on SOCA in these emerging areas. In particular, the special issue focuses on the following topics and related areas:                                 
+* SOCA in IoT and Cyber-Physical Systems
+* Service Models and Applications for Mobile-Edge Computing 
+* Service coordination techniques in IoT and cloud environments
+* SOC-based smart process and workflow management
+* Configurable, reconfigurable and software-defined service middleware
+* Data analytics and data services in and for SOC-based systems
+* Smart data and service contracts 
+* Cognitive computing, AI and Machine Learning  techniques applied to SOCA
+* Dependable and trustworthy SOCA
+* IoT and data marketplaces
+* IoT service modeling,  discovery, composition,  deployment
+* IoT service applications in domains such as transportation, logistics, manufacturing, agriculture, smart cities, smart grid, healthcare, etc.
+* Smart service-oriented applications (cities, transportation systems, factories, homes and offices, etc.)
+* Service applications in mobile things, such as smartphones, smart watches, wearables, etc.
+The special issue will publish 7 papers. We only consider novel contributions which have not been published elsewhere. Authors of accepted papers in previous SOCA conferences (IEEE SOCA 2016 and SOCA 2015) are highly encouraged to submit their revised extended versions.  Submissions of extended conference papers must include a clarification of new contributions and original accepted conference papers. 
+
+
+Important Dates
+
+* Submission of full papers: 15 Mar, 2017
+* First round review: 30 April, 2017
+* Submission of the revised papers:  15 June, 2017
+* Second round review: 20 July. 2017
+* On-line first:1 Sep, 2017
+
+Submission
+
+Full papers will be submitted as PDF files, using the SOCA journal format (http://www.springer.com/computer/communication+networks/journal/11761?detailsPage=pltci_1060145) with a page limit of 14 pages.   You can submit the paper through Springer using this link: https://www.editorialmanager.com/soca/default.aspx by selecting SI:SOCA2016. 
+
+Guest editors
+
+
+Hong-Linh Truong (main contact)
+Distributed Systems Group, TU Wien, Austria
+truong@dsg.tuwien.ac.at
+
+Nanjangud C Narendra
+Ericsson Research
+Bangalore, India
+nanjangud.narendra@ericsson.com
