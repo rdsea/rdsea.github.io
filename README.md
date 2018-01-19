@@ -1,2 +1,2 @@
 # rdsea.github.io
-will update soon
+The website of RDSEA Team
