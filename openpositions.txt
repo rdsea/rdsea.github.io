@@ -9,7 +9,7 @@ two years (renewable subject to available funding). The expected candidates
 will work on emerging exciting  topics of resource ensembles consisting of IoT,
 edge systems, network functions and cloud systems (http://rdsea.github.io),
 with a focus on uncertainty testing and management, reliability engineering,
-elasticity and resiliency, interoperability and ensemble-aware programming.
+elasticity and resilience, interoperability and ensemble-aware programming.
 
 The accepted candidates will be employed full time by Aalto University.
 
