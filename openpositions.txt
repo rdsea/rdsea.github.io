@@ -12,7 +12,7 @@ with a focus on uncertainty testing and management, reliability engineering,
 elasticity and resiliency, interoperability and ensemble-aware programming.
 
 The accepted candidates will be employed full time by Aalto University.
-  
+
 Potential candidates should possess
    - For PhD students: Egliable for enrolling to PhD programs at Aalto University
    - For Postdoc: a  PhD in computer science
