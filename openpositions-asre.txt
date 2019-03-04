@@ -22,17 +22,16 @@ Potential candidates should possess
    - For PhD students: Eligibility for enrolling to PhD programs at Aalto University
      (see https://into.aalto.fi/display/endoctoralsci/Science)
    - For Postdoc: a  PhD in computer science
-   - Excellent knowledge about how to work in an EU/International research project.
-   - Excellent knowledge in IoT, edge and  Cloud services
+   - Excellent knowledge and experience of how to work in an EU/International research project.
+   - Excellent knowledge of IoT, edge and  Cloud services
    - Excellent knowledge in distributed systems with a focus on middleware/platforms
    - Excellent programming skills  (with Java, Javascript, Python, Go, etc.)
-   - Excellent scientific communication and writing skills
+   - Excellent scientific communication and writing skills in English
    - For postdoc position: strong publications in top conferences
    - Strong experience in developing software prototypes with DevOps tools
    - Excellent knowledge in working with industrial IoT/Cloud systems,
     like Google Cloud, Azure and Amazon
    - Strong international teamwork experience
-   - Proficiency in English communication and writing
 
 Prospective candidates should contact and send his/her applications,
 including a motivation letter, CV & relevant certificates, transcript of academic records,
