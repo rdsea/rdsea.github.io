@@ -1,0 +1,49 @@
+One open full time PhD or post-doc position for Engineering Analytics
+of BigData  in IoT, Edge and Clouds Systems.
+
+We are looking for  an excellent full time PhD student and/or post-doc positions
+to join the Aalto Systems and Services Engineering Analytics ((http://rdsea.github.io) at
+the Department of Computer Science, Aalto University, Finland.
+
+A PhD student will be for 4 years and the post-doc position is limited  to
+two years (renewable subject to available funding). The persons hired
+will research engineering analytics for big data systems, including intelligent
+incident monitoring and analysis, DevOps for big data systems, quality of analytics management,
+and hybrid computing systems
+for big data. The research will be carried out in connection with
+possible national and EU research projects. In addition to research work, the persons
+hired are expected to participate in teaching following the standard practices at
+the department in the areas of IoT, edge computing, cloud computing, big data, and service computing.
+
+
+The accepted candidates will be employed full time by Aalto University.
+
+Potential candidates should possess
+   - For PhD students: Eligibility for enrolling to PhD programs at Aalto University
+     (see https://into.aalto.fi/display/endoctoralsci/Science)
+   - For Postdoc: a  PhD in computer science
+   - Excellent knowledge about how to work in an EU/International research project.
+   - Excellent knowledge in IoT, edge  and  cloud services
+   - Excellent knowledge in distributed systems with a focus on middleware/platforms
+   - Excellent programming skills  (with Java, Javascript, Python, Go, etc.)
+   - Excellent scientific communication and writing skills
+   - For postdoc position: strong publications in top conferences
+   - Strong experience in developing software prototypes with DevOps tools
+   - Excellent knowledge in working with industrial big data and cloud systems,
+    like Google, Azure and Amazon Cloud, Big Query, Apache Hadoop, Apache Nifi, Kafka, Spark, etc.
+   - Strong international teamwork experience
+   - Proficiency in English communication and writing
+
+Prospective candidates should contact and send his/her applications,
+including a motivation letter, CV & relevant certificates, transcript of academic records,
+links to online PhD/master thesis and scientific papers, and a statement on
+software prototype development experience.
+
+For further information pls. contact:
+
+   Hong-Linh Truong
+   Department of Computer Science,
+   Aalto University, Finland
+   Email:linh.truong@aalto.fi
+
+Applications from female candidates are highly encouraged.
