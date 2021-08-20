@@ -6,47 +6,51 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Aalto Systems, Software, Data and Services Engineering Analytics</title>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery.min.js"></script>
-<!-- Custom Theme files -->
-<!--theme-style-->
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<!--//theme-style-->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Awareness Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+	<title>Aalto Systems, Software, Data and Services Engineering Analytics</title>
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery.min.js"></script>
+	<!-- Custom Theme files -->
+	<!--theme-style-->
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!--//theme-style-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Awareness Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!--flexslider-->
-<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-<!--//flexslider-->
-<link href='//fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Raleway:400,700,800,600,500' rel='stylesheet' type='text/css'>
-<!--start-smoth-scrolling-->
-<script src="js/bootstrap.js"></script>
-<style>
-	.profile-pic{
-		width: 50%; 
-		height: auto; 
-		border-radius: 50%; 
-		margin:auto;
-	}
-	.profile-column{
-		margin-top: 30px;
-		min-height: 306px;
-	}
-</style>
+	<script
+		type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!--flexslider-->
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+	<!--//flexslider-->
+	<link href='//fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Raleway:400,700,800,600,500' rel='stylesheet' type='text/css'>
+	<!--start-smoth-scrolling-->
+	<script src="js/bootstrap.js"></script>
+	<style>
+		.profile-pic {
+			width: 50%;
+			height: auto;
+			border-radius: 50%;
+			margin: auto;
+		}
+
+		.profile-column {
+			margin-top: 30px;
+			min-height: 306px;
+		}
+	</style>
 </head>
+
 <body>
-<!--header-->
-<div class="header" >
-	<div class="col-md-3 header-top cbp-spmenu-push">
-		<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
-			<li><a  href="index.html"  >Home</a></li>
-			<!--li class="dropdown active">
+	<!--header-->
+	<div class="header">
+		<div class="col-md-3 header-top cbp-spmenu-push">
+			<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+				<li><a href="index.html">Home</a></li>
+				<!--li class="dropdown active">
 							  <a href="#" data-hover="SERVICES" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
 							  <ul class="dropdown-menu">
 								 <li><a href="about.html">Dummy text1</a></li>
@@ -56,43 +60,43 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							  </ul>
 							</li-->
 
-						<li><a  href="index.html"  >About</a></li>
-						<li><a href="index.html"  >Results</a></li>
-						<li><a  href="publications.html" >Publications</a></li>
-						<!--li><a  href="news.html" > News</a></li-->
-						<li><a href="index.html" >Contact</a></li>
-		</nav>
-		<!-- /script-nav -->
+				<li><a href="index.html">About</a></li>
+				<li><a href="index.html">Results</a></li>
+				<li><a href="publications.html">Publications</a></li>
+				<!--li><a  href="news.html" > News</a></li-->
+				<li><a href="index.html">Contact</a></li>
+			</nav>
+			<!-- /script-nav -->
 			<div class="main">
 				<section class="buttonset">
-					<button id="showLeftPush"><i  class="glyphicon glyphicon-menu-hamburger"></i></button>
+					<button id="showLeftPush"><i class="glyphicon glyphicon-menu-hamburger"></i></button>
 				</section>
 			</div>
 			<!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
-				<script src="js/classie.js"></script>
-					<script>
-						var	menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
-						showLeftPush = document.getElementById( 'showLeftPush' ),
-						body = document.body;
+			<script src="js/classie.js"></script>
+			<script>
+				var menuLeft = document.getElementById('cbp-spmenu-s1'),
+					showLeftPush = document.getElementById('showLeftPush'),
+					body = document.body;
 
-						showLeftPush.onclick = function() {
-							classie.toggle( this, 'active' );
-							classie.toggle( body, 'cbp-spmenu-push-toright' );
-							classie.toggle( menuLeft, 'cbp-spmenu-open' );
-							disableOther( 'showLeftPush' );
-						};
-					</script>
-	</div>
-	<div class="col-md-9 logo">
-		<h1><a href="index.html"><span>Aalto SEA - Systems & Services Engineering Analytics</a></h1>
-	</div>
-	<!--div class="col-md-3 search">
+				showLeftPush.onclick = function () {
+					classie.toggle(this, 'active');
+					classie.toggle(body, 'cbp-spmenu-push-toright');
+					classie.toggle(menuLeft, 'cbp-spmenu-open');
+					disableOther('showLeftPush');
+				};
+			</script>
+		</div>
+		<div class="col-md-9 logo">
+			<h1><a href="index.html"><span>Aalto SEA - Systems & Services Engineering Analytics</a></h1>
+		</div>
+		<!--div class="col-md-3 search">
 		<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><i class="glyphicon glyphicon-search"> </i></a>
 	</div-->
-	<div class="clearfix"> </div>
-</div>
+		<div class="clearfix"> </div>
+	</div>
 	<!---pop-up-box---->
-	<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
+	<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
 	<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
 	<!---//pop-up-box---->
 	<!--div id="small-dialog" class="mfp-hide">
@@ -104,138 +108,186 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<p>Education</p>
 		</div>
 	</div-->
-		 <script>
-			$(document).ready(function() {
+	<script>
+		$(document).ready(function () {
 			$('.popup-with-zoom-anim').magnificPopup({
-			type: 'inline',
-			fixedContentPos: false,
-			fixedBgPos: true,
-			overflowY: 'auto',
-			closeBtnInside: true,
-			preloader: false,
-			midClick: true,
-			removalDelay: 300,
-			mainClass: 'my-mfp-zoom-in'
+				type: 'inline',
+				fixedContentPos: false,
+				fixedBgPos: true,
+				overflowY: 'auto',
+				closeBtnInside: true,
+				preloader: false,
+				midClick: true,
+				removalDelay: 300,
+				mainClass: 'my-mfp-zoom-in'
 			});
 
-			});
-		</script>
-<!--//header-->
-<!--banner-->
-<div class="banner">
-	<div class="container">
+		});
+	</script>
+	<!--//header-->
+	<!--banner-->
+	<div class="banner">
+		<div class="container">
 
-		<div class="slider">
+			<div class="slider">
 
-			           <section class="slider">
-               <div class="flexslider">
-                   <ul class="slides">
- 	    	     <li>
-		       	<div class="banner-matter">
-			                   	<h3>Internet of Things, Edge Systems, Big Data Systems, Machine Learning Systems, and Clouds</h3>
-								<p></p>
-								<!--a href="single.html" class="hvr-rectangle-out">Read More</a-->
-							</div>
-  	    	     </li>
-		     	<li>
-                      			  <div class="banner-matter">
+				<section class="slider">
+					<div class="flexslider">
+						<ul class="slides">
+							<li>
+								<div class="banner-matter">
+									<h3>Internet of Things, Edge Systems, Big Data Systems, Machine Learning Systems,
+										and Clouds</h3>
+									<p></p>
+									<!--a href="single.html" class="hvr-rectangle-out">Read More</a-->
+								</div>
+							</li>
+							<li>
+								<div class="banner-matter">
 
-			                   	<h3>Distributed Applications, ML Pipelines, Large-scale software systems, Complex Services, and Middleware</h3>
-								<!--p>IoT, Network Functions, Big Data Analytics, and Cloud Computing.</p-->
-								<!--a href="single.html" class="hvr-rectangle-out">Read More</a-->
-							</div>
-  	    				</li>
+									<h3>Distributed Applications, ML Pipelines, Large-scale software systems, Complex
+										Services, and Middleware</h3>
+									<!--p>IoT, Network Functions, Big Data Analytics, and Cloud Computing.</p-->
+									<!--a href="single.html" class="hvr-rectangle-out">Read More</a-->
+								</div>
+							</li>
 
 
-  	    				<li>
-                      		<div class="banner-matter">
-			                   	<h3>IoT Data Marketplace, Data Services and Quality-aware Big Data Analytics</h3>
-								<!--p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised .</p>
+							<li>
+								<div class="banner-matter">
+									<h3>IoT Data Marketplace, Data Services and Quality-aware Big Data Analytics</h3>
+									<!--p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised .</p>
 								<a href="single.html" class="hvr-rectangle-out">Read More</a-->
-							</div>
-  	    				</li>
+								</div>
+							</li>
 
-         			 </ul>
-       		 </div>
-      	</section>
+						</ul>
+					</div>
+				</section>
 
-			  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
-			  <!--FlexSlider-->
-			  <script defer src="js/jquery.flexslider.js"></script>
-			  <script type="text/javascript">
-			    $(function(){
-			      SyntaxHighlighter.all();
-			    });
-			    $(window).load(function(){
-			      $('.flexslider').flexslider({
-			        animation: "slide",
-			        start: function(slider){
-			          $('body').removeClass('loading');
-			        }
-			      });
-			    });
-			  </script>
+				<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+				<!--FlexSlider-->
+				<script defer src="js/jquery.flexslider.js"></script>
+				<script type="text/javascript">
+					$(function () {
+						SyntaxHighlighter.all();
+					});
+					$(window).load(function () {
+						$('.flexslider').flexslider({
+							animation: "slide",
+							start: function (slider) {
+								$('body').removeClass('loading');
+							}
+						});
+					});
+				</script>
+			</div>
 		</div>
 	</div>
-</div>
-<!--content-->
-<div class="content">
-  	<div class="container">
-		<div class="col-top">
-<h2>About</h2>
-<strong>The Aalto Systems and Services Engineering Analytics  (AaltoSEA) Group</strong> concentrates and consolidates research activities, resources, results, and collaborations on foundational principles, concepts and techniques for service engineering analytics of distributed software systems and services,  big data applications, machine learning systems and IoT. We are a member of <a href="https://cs.aalto.fi">The Department of Computer Science, Aalto University</a>. We also contribute to the newly established <a href="https://acas.fi">Aalto Center for Autonomous Systems</a>. At Aalto we teach students to study topics in <a href="https://version.aalto.fi/gitlab/bigdataplatforms/cs-e4640">Big Data Platforms</a> and <a href="https://version.aalto.fi/gitlab/sys4bigml/cs-e4660">Systems for Big Data/Machine Learning</a>.
-	<div class="clearfix"> </div>
-		</div>
-	</div>
-
-
-	<div class="container">
-		<div class="col-top">
-<h2>Engineering  Analytics</h2>
-Engineering analytics is concerned with the techniques and tools for designing, monitoring, analyzing, explaining and optimizing functions, performance, data quality, elasticity, and uncertainties associated with systems, software, data and services.
-
-<!--Some  challenges, directions and results were outlined in <a href="https://users.aalto.fi/~truongh4/publications/these/truong-habilitation-thesis-short.pdf">this habilitation thesis</a-->.
-In our work, we focus on  engineering  analytics for: <strong>Systems and their interplay(IoT, Cloud and  Edge Systems)</strong>, <strong>Software (Machine Learning, Middleware, Protocols, and Tools) </strong>, <strong>Data (Models and Analytics)</strong>, <strong>Services (Data Marketplace, Service Models, APIs, and Configuration)</strong>. We apply our engineering analytics techniques to various applications, including smart cities, smart agriculture, enterprises, e-science, logistics, robotics, and e-health. See some <a href="https://users.aalto.fi/~truongh4/publications/2019/Truong_Linh_-installation-talk-april-2019.pdf">high-level ideas in this presentation</a>.
-
-
-		</div>
-	</div>
-	<div class="service-top">
-		<div class="col-md-3 service-grid">
-			<span></span>
-			<div class="grid-ser">
-				<h4>Systems</h4>
-				<p> we focus on emerging complex  distributed systems covering cloud systems, IoT, edge systems, cyber-physical systems and social-cyber-physical systems. Some of our novel concepts are <a href="https://users.aalto.fi/~truongh4/publications/2011/principles-of-elasticprocesses.pdf">elastic systems</a>, <a href="https://users.aalto.fi/~truongh4/publications/2015/truong-cloudspotlight2015.pdf">IoT Cloud systems</a> and <a href="https://link.springer.com/article/10.1007/s11761-018-0228-2">the ensembles of IoT, Cloud and Networks</a></p>
+	<!--content-->
+	<div class="content">
+		<div class="container">
+			<div class="col-top">
+				<h2>About</h2>
+				<strong>The Aalto Systems and Services Engineering Analytics (AaltoSEA) Group</strong> concentrates and
+				consolidates research activities, resources, results, and collaborations on foundational principles,
+				concepts and techniques for service engineering analytics of distributed software systems and services,
+				big data applications, machine learning systems and IoT. We are a member of <a
+					href="https://cs.aalto.fi">The Department of Computer Science, Aalto University</a>. We also
+				contribute to the newly established <a href="https://acas.fi">Aalto Center for Autonomous Systems</a>.
+				At Aalto we teach students to study topics in <a
+					href="https://version.aalto.fi/gitlab/bigdataplatforms/cs-e4640">Big Data Platforms</a> and <a
+					href="https://version.aalto.fi/gitlab/sys4bigml/cs-e4660">Systems for Big Data/Machine Learning</a>.
+				<div class="clearfix"> </div>
 			</div>
-			<div class="clearfix"> </div>
 		</div>
-		<div class="col-md-3 service-grid">
-			<span></span>
-			<div class="grid-ser">
-				<h4> Software </h4>
-				<p>We focus on system software, middleware, tools and applications in  IoT, cloud, edge, enterprise, cyber-physical systems, and machine learning systems. Application domains are smart agriculture, smart city, e-science, and industrial internet. Some recent tools are <a href="http://bit.ly/1Y36tIY">IoT management</a>, <a href="https://users.aalto.fi/~truongh4/publications/2017/truong-tecps2017.pdf">Uncertainty Testing for CPS</a>, and <a href="https://users.aalto.fi/~truongh4/publications/2017/truong-mobiquitous2017.pdf">IoT Cloud uncertainties</a></p>
+
+
+		<div class="container">
+			<div class="col-top">
+				<h2>Engineering Analytics</h2>
+				Engineering analytics is concerned with the techniques and tools for designing, monitoring, analyzing,
+				explaining and optimizing functions, performance, data quality, elasticity, and uncertainties associated
+				with systems, software, data and services.
+
+				<!--Some  challenges, directions and results were outlined in <a href="https://users.aalto.fi/~truongh4/publications/these/truong-habilitation-thesis-short.pdf">this habilitation thesis</a-->.
+				In our work, we focus on engineering analytics for: <strong>Systems and their interplay(IoT, Cloud and
+					Edge Systems)</strong>, <strong>Software (Machine Learning, Middleware, Protocols, and Tools)
+				</strong>, <strong>Data (Models and Analytics)</strong>, <strong>Services (Data Marketplace, Service
+					Models, APIs, and Configuration)</strong>. We apply our engineering analytics techniques to various
+				applications, including smart cities, smart agriculture, enterprises, e-science, logistics, robotics,
+				and e-health. See some <a
+					href="https://users.aalto.fi/~truongh4/publications/2019/Truong_Linh_-installation-talk-april-2019.pdf">high-level
+					ideas in this presentation</a>.
+
+
 			</div>
-			<div class="clearfix"> </div>
 		</div>
-		<div class="col-md-3 service-grid">
-			<span></span>
-			<div class="grid-ser">
-				<h4>Data</h4>
-				<p> We focus on IoT/big data data models and analytics, including various types of data in complex distributed systems that are gathered, processed and provisioned under different services. Some our novel concepts are <a href="https://users.aalto.fi/~truongh4/publications/2014/truong-sds2014-ic2e.pdf">elastic data analytics</a>, <a href="https://dl.acm.org/citation.cfm?id=3138806">Quality of Analytics</a>, and <a href="https://www.researchgate.net/publication/324170664_Characterizing_Incidents_in_Cloud-based_IoT_Data_Analytics">incidents in big data</a></p>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
+		<div class="service-top">
 			<div class="col-md-3 service-grid">
-			<span></span>
-			<div class="grid-ser">
-				<h4>Services</h4>
-				<p>We focus on novel technical service models (data-as-a-service, IoT services, e-science services, and several application-specific services), service API and execution management, and dynamic business models  (e.g. pay-per-use) for consumers. Some of our novel conconcepts are <a href="https://www.researchgate.net/project/IoT-Data-Marketplace-and-Analytics-Models-and-Techniques">Data-as-a-Service, data contracts for data marketplaces</a>, <a href="https://users.aalto.fi/~truongh4/publications/2016/truong-toit2016.pdf">human sensing data marketplace</a>, and <a href="https://www.researchgate.net/project/R3E-for-end-to-end-Big-Data-and-Machine-Learning">machine learning services</a></p>
+				<span></span>
+				<div class="grid-ser">
+					<h4>Systems</h4>
+					<p> we focus on emerging complex distributed systems covering cloud systems, IoT, edge systems,
+						cyber-physical systems and social-cyber-physical systems. Some of our novel concepts are <a
+							href="https://users.aalto.fi/~truongh4/publications/2011/principles-of-elasticprocesses.pdf">elastic
+							systems</a>, <a
+							href="https://users.aalto.fi/~truongh4/publications/2015/truong-cloudspotlight2015.pdf">IoT
+							Cloud systems</a> and <a
+							href="https://link.springer.com/article/10.1007/s11761-018-0228-2">the ensembles of IoT,
+							Cloud and Networks</a></p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="col-md-3 service-grid">
+				<span></span>
+				<div class="grid-ser">
+					<h4> Software </h4>
+					<p>We focus on system software, middleware, tools and applications in IoT, cloud, edge, enterprise,
+						cyber-physical systems, and machine learning systems. Application domains are smart agriculture,
+						smart city, e-science, and industrial internet. Some recent tools are <a
+							href="http://bit.ly/1Y36tIY">IoT management</a>, <a
+							href="https://users.aalto.fi/~truongh4/publications/2017/truong-tecps2017.pdf">Uncertainty
+							Testing for CPS</a>, and <a
+							href="https://users.aalto.fi/~truongh4/publications/2017/truong-mobiquitous2017.pdf">IoT
+							Cloud uncertainties</a></p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="col-md-3 service-grid">
+				<span></span>
+				<div class="grid-ser">
+					<h4>Data</h4>
+					<p> We focus on IoT/big data data models and analytics, including various types of data in complex
+						distributed systems that are gathered, processed and provisioned under different services. Some
+						our novel concepts are <a
+							href="https://users.aalto.fi/~truongh4/publications/2014/truong-sds2014-ic2e.pdf">elastic
+							data analytics</a>, <a href="https://dl.acm.org/citation.cfm?id=3138806">Quality of
+							Analytics</a>, and <a
+							href="https://www.researchgate.net/publication/324170664_Characterizing_Incidents_in_Cloud-based_IoT_Data_Analytics">incidents
+							in big data</a></p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="col-md-3 service-grid">
+				<span></span>
+				<div class="grid-ser">
+					<h4>Services</h4>
+					<p>We focus on novel technical service models (data-as-a-service, IoT services, e-science services,
+						and several application-specific services), service API and execution management, and dynamic
+						business models (e.g. pay-per-use) for consumers. Some of our novel conconcepts are <a
+							href="https://www.researchgate.net/project/IoT-Data-Marketplace-and-Analytics-Models-and-Techniques">Data-as-a-Service,
+							data contracts for data marketplaces</a>, <a
+							href="https://users.aalto.fi/~truongh4/publications/2016/truong-toit2016.pdf">human sensing
+							data marketplace</a>, and <a
+							href="https://www.researchgate.net/project/R3E-for-end-to-end-Big-Data-and-Machine-Learning">machine
+							learning services</a></p>
+				</div>
+				<div class="clearfix"> </div>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
-		<div class="clearfix"> </div>
-	</div>
-	<!--div class="content-top">
+		<!--div class="content-top">
 		<div class=" col-md-3 grid-top">
 			<i class="glyphicon glyphicon-education"></i>
 				 <div class="caption">
@@ -267,175 +319,206 @@ In our work, we focus on  engineering  analytics for: <strong>Systems and their 
 			</div>
 		<div class="clearfix"> </div>
 	</div-->
-	<div class="content-middle">
-		<div class="container">
-			<div class="col-mid">
-			<h3>Research Directions</h3>
+		<div class="content-middle">
+			<div class="container">
+				<div class="col-mid">
+					<h3>Research Directions</h3>
 
-			<!--In our research, we focus on different aspects of engineering analytics.-->
+					<!--In our research, we focus on different aspects of engineering analytics.-->
 
-		</div>
-		<div class="content-middle1">
-			<div class="col-md-4 content-middle2">
-				<!--a href="single.html"><img src="images/pi.jpg " class="img-responsive" alt=""></a-->
-				<div class="content-middle3">
-					<h4><a href="https://www.researchgate.net/project/R3E-for-end-to-end-Big-Data-and-Machine-Learning">Machine Learning Observability and Optimization</a></h4>
-					<label></label>
-					<p> <a href="https://www.researchgate.net/project/R3E-for-end-to-end-Big-Data-and-Machine-Learning">Machine Learning  Observability and Optimization</a> </p>
 				</div>
-			</div>
-			<div class="col-md-4 content-middle2">
-				<!--a href="single.html"><img src="images/pi1.jpg " class="img-responsive" alt=""></a-->
-				<div class="content-middle3">
-					<h4>Data concerns Modeling and Evaluation</h4>
-					<label></label>
-					<p> <a href="https://www.researchgate.net/project/IoT-Data-Marketplace-and-Analytics-Models-and-Techniques">Data Concerns, Data Quality Evaluation and Data Contracts for Data Services</a</p>
-				</div>
-			</div>
-			<div class="col-md-4 content-middle2">
-				<!--a href="single.html"><img src="images/pi2.jpg " class="img-responsive" alt=""></a-->
-				<div class="content-middle3">
-					<h4>Uncertainties, performance and reliability evaluation</h4>
-					<label></label>
-					<p> <a href="https://www.researchgate.net/project/Testing-uncertainties-for-CPS-IoT">Uncertainties, performance and reliability evaluation</a></p>
-				</div>
-			</div>
-				<div class="clearfix"> </div>
-		</div>
-			<div class="content-middle1">
-				<div class="col-md-4 content-middle2">
-				<!--a href="single.html"><img src="images/pi2.jpg " class="img-responsive" alt=""></a-->
-				<div class="content-middle3">
-					<h4>Elasticity Engineering and Analytics</h4>
-					<label></label>
-					<p> <a href="https://www.researchgate.net/project/Engineering-Ensembles-of-IoT-Network-Functions-and-Cloud-Resources">Service Elasticity Engineering and Analytics</a></p>
-				</div>
-				</div>
+				<div class="content-middle1">
 					<div class="col-md-4 content-middle2">
-				<!--a href="single.html"><img src="images/pi2.jpg " class="img-responsive" alt=""></a-->
-				<div class="content-middle3">
-					<h4>Blockchain and Services</h4>
-					<label></label>
-					<p><a href="https://www.researchgate.net/project/Blockchain-and-services">Blockchain-based IoT middleware and services</a>, including interaction designs, performance, monitoring and DevOps.</p>
-				</div>
+						<!--a href="single.html"><img src="images/pi.jpg " class="img-responsive" alt=""></a-->
+						<div class="content-middle3">
+							<h4><a
+									href="https://www.researchgate.net/project/R3E-for-end-to-end-Big-Data-and-Machine-Learning">Machine
+									Learning Observability and Optimization</a></h4>
+							<label></label>
+							<p> <a
+									href="https://www.researchgate.net/project/R3E-for-end-to-end-Big-Data-and-Machine-Learning">Machine
+									Learning Observability and Optimization</a> </p>
+						</div>
 					</div>
-				<div class="col-md-4 content-middle2">
-				<!--a href="single.html"><img src="images/pi2.jpg " class="img-responsive" alt=""></a-->
-				<div class="content-middle3">
-					<h4>Service-based Hybrid Computing Systems</h4>
-					<label></label>
-					<p><br> <a href="http://sea4hcs.github.io">Engineering Analytics of service-based hybrid computing systems</a></strong></p>
+					<div class="col-md-4 content-middle2">
+						<!--a href="single.html"><img src="images/pi1.jpg " class="img-responsive" alt=""></a-->
+						<div class="content-middle3">
+							<h4>Data concerns Modeling and Evaluation</h4>
+							<label></label>
+							<p> <a
+									href="https://www.researchgate.net/project/IoT-Data-Marketplace-and-Analytics-Models-and-Techniques">Data
+									Concerns, Data Quality Evaluation and Data Contracts for Data Services</a< /p>
+						</div>
+					</div>
+					<div class="col-md-4 content-middle2">
+						<!--a href="single.html"><img src="images/pi2.jpg " class="img-responsive" alt=""></a-->
+						<div class="content-middle3">
+							<h4>Uncertainties, performance and reliability evaluation</h4>
+							<label></label>
+							<p> <a href="https://www.researchgate.net/project/Testing-uncertainties-for-CPS-IoT">Uncertainties,
+									performance and reliability evaluation</a></p>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
 				</div>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-
-	</div>
-
-	<div class="content-middle">
-		<div class="container">
-			<div class="col-mid">
-			<h3>Team</h3>
-
-			<br>
-		        
-						<h4>Open position: <a href="jobs/doctoralstudent2021.md">Full time funded PhD position, 2021</a></h4>
-		</div>
-		<div class="content-middle1">
-			<div class="col-md-4 content-middle2 profile-column">
-			  <img src="images/linh.jpg " class="img-responsive profile-pic" alt="">
-			  <p style="text-align: center; font-size: smaller;">Photo: Aalto University/Jaakko Kahilaniemi</p>
-				<div class="content-middle3">
-
-					<h4><a href="https://users.aalto.fi/~truongh4">Hong-Linh Truong</a></h4>
-					<label></label>
-					<p> <ul>
-						<li>Professor, Group Lead, <a href="https://users.aalto.fi/~truongh4">Further info</a></li>
-					    </ul>
-						</p>
-
+				<div class="content-middle1">
+					<div class="col-md-4 content-middle2">
+						<!--a href="single.html"><img src="images/pi2.jpg " class="img-responsive" alt=""></a-->
+						<div class="content-middle3">
+							<h4>Elasticity Engineering and Analytics</h4>
+							<label></label>
+							<p> <a
+									href="https://www.researchgate.net/project/Engineering-Ensembles-of-IoT-Network-Functions-and-Cloud-Resources">Service
+									Elasticity Engineering and Analytics</a></p>
+						</div>
+					</div>
+					<div class="col-md-4 content-middle2">
+						<!--a href="single.html"><img src="images/pi2.jpg " class="img-responsive" alt=""></a-->
+						<div class="content-middle3">
+							<h4>Blockchain and Services</h4>
+							<label></label>
+							<p><a href="https://www.researchgate.net/project/Blockchain-and-services">Blockchain-based
+									IoT middleware and services</a>, including interaction designs, performance,
+								monitoring and DevOps.</p>
+						</div>
+					</div>
+					<div class="col-md-4 content-middle2">
+						<!--a href="single.html"><img src="images/pi2.jpg " class="img-responsive" alt=""></a-->
+						<div class="content-middle3">
+							<h4>Service-based Hybrid Computing Systems</h4>
+							<label></label>
+							<p><br> <a href="http://sea4hcs.github.io">Engineering Analytics of service-based hybrid
+									computing systems</a></strong></p>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
 				</div>
 
-			</div>
-			
-			<div class="col-md-4 content-middle2 profile-column">
-				<img src="images/phuong.jpg " class="img-responsive profile-pic" alt="">
-				<div class="content-middle3">
-					
-					<h4><a href="https://research.aalto.fi/en/persons/thanh-pham">Thanh-Phuong Pham</a></h4>
-					<label></label>
-					<p> <ul>
-					    <li>Researcher, <a href="https://research.aalto.fi/en/persons/thanh-pham">Further info</a></li>
-					    </ul>
-					</p>
-
-				</div>
-			</div>
-			
-			<div class="col-md-4 content-middle2 profile-column">
-				<img src="images/tri.jpg " class="img-responsive profile-pic" alt="">
-				<div class="content-middle3">
-					
-					<h4><a href="https://www.researchgate.net/profile/Minh_Tri_Nguyen5">Minh-Tri Nguyen</a></h4>
-					<label></label>
-					<p> <ul>
-					    <li>Researcher, <a href="https://www.researchgate.net/profile/Minh_Tri_Nguyen5">Further info</a></li>
-					    </ul>
-					</p>
-
-				</div>
-			</div>
-			<div class="col-md-4 content-middle2 profile-column">
-				<a href="single.html"><img src="images/linhng.jpg " class="img-responsive profile-pic" alt=""></a-->
-				<div class="content-middle3">
-					
-					<h4><a href="https://www.linkedin.com/in/my-linh-ng/">My-Linh Nguyen</a></h4>
-					<label></label>
-					<p> <ul>
-					    <li>Research Assistant, <a href="https://www.linkedin.com/in/my-linh-ng/">Further info</a></li>
-					    </ul>
-					</p>
-
-				</div>
 			</div>
 
-		
-			
-			<div class="col-md-4 content-middle2 profile-column">
-				<a href="single.html"><img src="images/rohit.jpg " class="img-responsive profile-pic" alt=""></a-->
-				<div class="content-middle3">
-					
-					<h4><a href="https://www.linkedin.com/in/rohitraj94/">Rohit Raj</a></h4>
-					<label></label>
-					<p> <ul>
-					    <li>Researcher, <a href="https://www.linkedin.com/in/rohitraj94/">Further info</a></li>
-					    </ul>
-					</p>
+			<div class="content-middle">
+				<div class="container">
+					<div class="col-mid">
+						<h3>Team</h3>
 
-				</div>
-			</div>
+						<br>
 
-			<div class="col-md-4 content-middle2 profile-column">
-				<!--a href="single.html"><img src="images/pi2.jpg " class="img-responsive profile-pic" alt=""></a-->
-				<div class="content-middle3">
-					<h4>Master Thesis Students</h4>
-					<label></label>
-					<p>
-					  <ul>
-					    <li>Eero Silfverberg: IoT in  marine industry (with <a href="https://oceanvolt.com/">Oceanvolt</a>)</li>
-					    <li>Minh Nguyen: Smart Contract for Flextimers (Aalto School of Business)</li>
-					    <li>Yoselin Garcia Salinas: Benchmarking of in-memory Big Data technologies (with FA Solutions)</li>
-					    <li>
-					     Kimmo Mikkola: IoT Sensors in 3GPP MCS Environments (with Airbus Defense and Space Oy) 
-					    </li>					    
-					    
-							
+						<h4>Open position: <a href="jobs/doctoralstudent2021.md">Full time funded PhD position, 2021</a>
+						</h4>
+					</div>
+					<div class="content-middle1">
+						<div class="col-md-4 content-middle2 profile-column">
+							<img src="images/linh.jpg " class="img-responsive profile-pic" alt="">
+							<p style="text-align: center; font-size: smaller;">Photo: Aalto University/Jaakko
+								Kahilaniemi</p>
+							<div class="content-middle3">
 
-					    </ul>
-					</p>
-				</div>
-			</div>
-				<!--div class="col-md-3 content-middle2">
+								<h4><a href="https://users.aalto.fi/~truongh4">Hong-Linh Truong</a></h4>
+								<label></label>
+								<p>
+								<ul>
+									<li>Professor, Group Lead, <a href="https://users.aalto.fi/~truongh4">Further
+											info</a></li>
+								</ul>
+								</p>
+
+							</div>
+
+						</div>
+
+						<div class="col-md-4 content-middle2 profile-column">
+							<img src="images/phuong.jpg " class="img-responsive profile-pic" alt="">
+							<div class="content-middle3">
+
+								<h4><a href="https://research.aalto.fi/en/persons/thanh-pham">Thanh-Phuong Pham</a></h4>
+								<label></label>
+								<p>
+								<ul>
+									<li>Researcher, <a href="https://research.aalto.fi/en/persons/thanh-pham">Further
+											info</a></li>
+								</ul>
+								</p>
+
+							</div>
+						</div>
+
+						<div class="col-md-4 content-middle2 profile-column">
+							<img src="images/tri.jpg " class="img-responsive profile-pic" alt="">
+							<div class="content-middle3">
+
+								<h4><a href="https://www.researchgate.net/profile/Minh_Tri_Nguyen5">Minh-Tri Nguyen</a>
+								</h4>
+								<label></label>
+								<p>
+								<ul>
+									<li>Researcher, <a
+											href="https://www.researchgate.net/profile/Minh_Tri_Nguyen5">Further
+											info</a></li>
+								</ul>
+								</p>
+
+							</div>
+						</div>
+						<div class="col-md-4 content-middle2 profile-column">
+							<a href="single.html"><img src="images/linhng.jpg " class="img-responsive profile-pic"
+									alt=""></a-->
+								<div class="content-middle3">
+
+									<h4><a href="https://www.linkedin.com/in/my-linh-ng/">My-Linh Nguyen</a></h4>
+									<label></label>
+									<p>
+									<ul>
+										<li>Research Assistant, <a
+												href="https://www.linkedin.com/in/my-linh-ng/">Further info</a></li>
+									</ul>
+									</p>
+
+								</div>
+						</div>
+
+
+
+						<div class="col-md-4 content-middle2 profile-column">
+							<a href="single.html"><img src="images/rohit.jpg " class="img-responsive profile-pic"
+									alt=""></a-->
+								<div class="content-middle3">
+
+									<h4><a href="https://www.linkedin.com/in/rohitraj94/">Rohit Raj</a></h4>
+									<label></label>
+									<p>
+									<ul>
+										<li>Researcher, <a href="https://www.linkedin.com/in/rohitraj94/">Further
+												info</a></li>
+									</ul>
+									</p>
+
+								</div>
+						</div>
+
+						<div class="col-md-4 content-middle2 profile-column">
+							<!--a href="single.html"><img src="images/pi2.jpg " class="img-responsive profile-pic" alt=""></a-->
+							<div class="content-middle3">
+								<h4>Master Thesis Students</h4>
+								<label></label>
+								<p>
+								<ul>
+									<li>Eero Silfverberg: IoT in marine industry (with <a
+											href="https://oceanvolt.com/">Oceanvolt</a>)</li>
+									<li>Minh Nguyen: Smart Contract for Flextimers (Aalto School of Business)</li>
+									<li>Yoselin Garcia Salinas: Benchmarking of in-memory Big Data technologies (with FA
+										Solutions)</li>
+									<li>
+										Kimmo Mikkola: IoT Sensors in 3GPP MCS Environments (with Airbus Defense and
+										Space Oy)
+									</li>
+
+
+
+								</ul>
+								</p>
+							</div>
+						</div>
+						<!--div class="col-md-3 content-middle2">
 
 				<div class="content-middle3">
 					<h4>Others</h4>
@@ -448,40 +531,62 @@ In our work, we focus on  engineering  analytics for: <strong>Systems and their 
 					</p>
 				</div>
 </div-->
-				  <div class="col-md-4 content-middle2 profile-column">
-					<div class="content-middle3">
-					  <h4>Current visitors</h4>
-					  <label></label>
-					  <p>
-					    <h5></h5></p>
+						<div class="col-md-4 content-middle2 profile-column">
+							<div class="content-middle3">
+								<h4>Current visitors</h4>
+								<label></label>
+								<p>
+								<h5></h5>
+								</p>
 
+							</div>
+						</div>
+						<div class="col-md-4 content-middle2 profile-column">
+							<div class="content-middle3">
+								<h4>Past visitors</h4>
+								<label></label>
+								<p>
+								<h5>Adrian Orive Oneca (IKERLAN), Kyle Chard (University of Chicago), Liang Zhang (Fudan
+									University), The-Vu Tran (Da Nang University), Huu-Hung Huynh (Da Nang University),
+									Nam Huynh (HoChiMinh City University of Technology)
+								</h5>
+								</p>
+							</div>
+						</div>
+						<div class="col-md-4 content-middle2 profile-column">
+							<div class="content-middle3">
+								<h4>Past members</h4>
+								<label></label>
+								<p>
+								<h5>Postdocs: Dr. Bunjamin Memishi, <a
+										href="https://it.linkedin.com/in/lucaberardinelli">Dr. Luca Berardinelli</a>, <a
+										href="https://ro.linkedin.com/in/georgianacopil">Dr. Georgiana Copil</a>, <a
+										href="https://jm.linkedin.com/in/daniel-moldovan-ba976532">Dr. Daniel
+										Moldovan</a>,
+									<br>
+									Research assistants/Master Students: Minh-Duc Ta, <a
+										href="https://www.linkedin.com/in/strasdosky-otewa-71b0174a/">Strasdosky
+										Otewa</a>, <a href="https://fi.linkedin.com/in/oscarhenriksson">Oscar
+										Henriksson</a>, <a href="https://fi.linkedin.com/in/kristskreics">Kreics
+										Krists</a>, <a href="https://sk.linkedin.com/in/filip-rydzi">Filip Rydzi</a>,
+									Michael Hammerer, <a
+										href="https://www.linkedin.com/in/lingfan-gao-092b0084/">Lingfan Gao</a>, <a
+										href="https://www.linkedin.com/in/juraj-%C4%8D%C3%ADk-5a597b60/">Juraj Cik</a>,
+									<a href="https://www.linkedin.com/in/dipl-ing-florin-balint-6112a096">Florin
+										Balint</a>, <a
+										href="https://www.linkedin.com/in/manfred-halper-274729124">Manfred Halper</a>,
+									Matthias Karan, <a href="https://www.linkedin.com/in/peter-klein-464609b">Peter
+										Klein</a>
+								</h5>
+								</p>
+
+							</div>
+						</div>
+						<div class="clearfix"> </div>
 					</div>
-				  </div>
-				  <div class="col-md-4 content-middle2 profile-column">
-					<div class="content-middle3">
-					  <h4>Past visitors</h4>
-					  <label></label>
-					  <p>
-					    <h5>Adrian Orive Oneca (IKERLAN), Kyle Chard (University of Chicago), Liang Zhang (Fudan University), The-Vu Tran (Da Nang University), Huu-Hung Huynh (Da Nang University), Nam Huynh (HoChiMinh City University of Technology)
-					  </h5></p>
-					</div>
-				  </div>
-				  <div class="col-md-4 content-middle2 profile-column">
-				    <div class="content-middle3">
-				      <h4>Past members</h4>
-					  <label></label>
-				      <p><h5>Postdocs:  Dr. Bunjamin Memishi, <a href="https://it.linkedin.com/in/lucaberardinelli">Dr. Luca Berardinelli</a>,  <a href="https://ro.linkedin.com/in/georgianacopil">Dr. Georgiana Copil</a>, <a href="https://jm.linkedin.com/in/daniel-moldovan-ba976532">Dr. Daniel Moldovan</a>,
-					  <br>
-					  Research assistants/Master Students: Minh-Duc Ta, <a href="https://www.linkedin.com/in/strasdosky-otewa-71b0174a/">Strasdosky Otewa</a>, <a href="https://fi.linkedin.com/in/oscarhenriksson">Oscar Henriksson</a>, <a href="https://fi.linkedin.com/in/kristskreics">Kreics Krists</a>, <a href="https://sk.linkedin.com/in/filip-rydzi">Filip Rydzi</a>, Michael Hammerer, <a href="https://www.linkedin.com/in/lingfan-gao-092b0084/">Lingfan Gao</a>, <a href="https://www.linkedin.com/in/juraj-%C4%8D%C3%ADk-5a597b60/">Juraj Cik</a>, <a href="https://www.linkedin.com/in/dipl-ing-florin-balint-6112a096">Florin Balint</a>, <a href="https://www.linkedin.com/in/manfred-halper-274729124">Manfred Halper</a>, Matthias Karan, <a href="https://www.linkedin.com/in/peter-klein-464609b">Peter Klein</a></h5>
-				      </p>
 
-				    </div>
-				  </div>
-				<div class="clearfix"> </div>
-		</div>
-
-		</div>
-		<!--div class="container">
+				</div>
+				<!--div class="container">
 			<div class="col-mid">
 			  <p>Alumni:
 	Juraj Cik, Stefan Nastic, Tien-Dung Nguyen, Philipp Zeppezauer
@@ -490,89 +595,144 @@ In our work, we focus on  engineering  analytics for: <strong>Systems and their 
 
 		</div>
 	</div-->
-	<div class="content-middle">
-		<div class="container">
-			<div class="col-mid">
-			<h3>Results</h3>
-			<p>Our GitHub prototypes: <a href="https://github.com/rdsea">https://github.com/rdsea</a></p>
-			<p>Our Docker Hub: <a href="https://hub.docker.com/u/rdsea/">https://hub.docker.com/u/rdsea/</a></p>
-		</div>
-		<div class="content-middle1">
-			<div class="col-md-4 content-middle2">
-				<!--a href="single.html"><img src="images/pi.jpg " class="img-responsive" alt=""></a-->
-				<div class="content-middle3">
-					<h4><a href="">Projects</a></h4>
-					<label></label>
-					<p> <ul>
-						  <li><a href="https://chainml.github.io/">ChainML - practical applications in the intersection of blockchain and machine learning</a>
-								</li>
-					    <li>INTER-HINC, IoT Interoperability, Part of Inter-IoT, H2020, May-2017-Oct-2018</li>
-					    <li>
+				<div class="content-middle">
+					<div class="container">
+						<div class="col-mid">
+							<h3>Results</h3>
+							<p>Our GitHub prototypes: <a href="https://github.com/rdsea">https://github.com/rdsea</a>
+							</p>
+							<p>Our Docker Hub: <a
+									href="https://hub.docker.com/u/rdsea/">https://hub.docker.com/u/rdsea/</a></p>
+						</div>
+						<div class="content-middle1">
+							<div class="col-md-4 content-middle2">
+								<!--a href="single.html"><img src="images/pi.jpg " class="img-responsive" alt=""></a-->
+								<div class="content-middle3">
+									<h4><a href="">Projects</a></h4>
+									<label></label>
+									<p>
+									<ul>
+										<li><a href="https://chainml.github.io/">ChainML - practical applications in the
+												intersection of blockchain and machine learning</a>
+										</li>
+										<li>INTER-HINC, IoT Interoperability, Part of Inter-IoT, H2020,
+											May-2017-Oct-2018</li>
+										<li>
 
-					       <a href="http://badaling.github.io">BADALING - Basic Abstractions for Developing Advanced Models of IoT Network in the Edge</a>, Oct, 2016 - Sep, 2017</li>
-					      </li>
-					    <li>
-					      <a href="http://alpslab.github.io/">AlPS - Analytics, Privacy, and Security for IoT and Big Data</a>, Partially funded by <a href="http://www.asea-uninet.org/">ASEA-UNINET</a>, 2016-2917
-					      </li>
-	<li><a href="http://www.u-test.eu/">U-Test - Testing Cyber-Physical Systems under Uncertainty: Systematic, Extensible, and Configurable Model-based and Search-based Testing Methodologies</a>, H2020 project, EU funded, Jan 2015-Dec 2017</li>
-	<li><a href="http://haivanuni.github.io/haivan/">HAIVAN: Strengthening Critical IoT Software Development and Training in Highly Volatile and Unreliable Environments</a>, partially funded by <a href="http://www.asea-uninet.org/">ASEA-UNINET</a>, 2016.</li>
-	<!--li><a href="http://www.infosys.tuwien.ac.at/prototype/celar/">CELAR: Automatic, Multi-grained Elasticity-provisioning for the Cloud</a>, EU funded, Oct 2012 - Sep 2015</li>
+											<a href="http://badaling.github.io">BADALING - Basic Abstractions for
+												Developing Advanced Models of IoT Network in the Edge</a>, Oct, 2016 -
+											Sep, 2017
+										</li>
+										</li>
+										<li>
+											<a href="http://alpslab.github.io/">AlPS - Analytics, Privacy, and Security
+												for IoT and Big Data</a>, Partially funded by <a
+												href="http://www.asea-uninet.org/">ASEA-UNINET</a>, 2016-2917
+										</li>
+										<li><a href="http://www.u-test.eu/">U-Test - Testing Cyber-Physical Systems
+												under Uncertainty: Systematic, Extensible, and Configurable Model-based
+												and Search-based Testing Methodologies</a>, H2020 project, EU funded,
+											Jan 2015-Dec 2017</li>
+										<li><a href="http://haivanuni.github.io/haivan/">HAIVAN: Strengthening Critical
+												IoT Software Development and Training in Highly Volatile and Unreliable
+												Environments</a>, partially funded by <a
+												href="http://www.asea-uninet.org/">ASEA-UNINET</a>, 2016.</li>
+										<!--li><a href="http://www.infosys.tuwien.ac.at/prototype/celar/">CELAR: Automatic, Multi-grained Elasticity-provisioning for the Cloud</a>, EU funded, Oct 2012 - Sep 2015</li>
 	<li><a href="http://www.dbai.tuwien.ac.at/research/project/InfInt/">WWTF Service-oriented Data Integration</a>: WWTF, 2009- 2012</li-->
-</ul> </p>
-				</div>
-			</div>
-			<div class="col-md-4 content-middle2">
-				<!--a href="single.html"><img src="images/pi1.jpg " class="img-responsive" alt=""></a-->
-				<div class="content-middle3">
-					<h4>Concepts & Prototypes</h4>
-					<label></label>
-					<ul>
-					  <li>
-					    <a href="http://github.com/rdsea/IoTCloudSamples">IoTCloudSamples</a>: IoT Cloud Units for Research and Development</li>
-					  <li><a href="https://github.com/rdsea/kalbi">KALBI</a>- Blockchain knowledge, artefacts, benchmarks and utilities</li>
-					  <li>
-					    <a href="http://github.com/rdsea/T4UME">T4UME</a> - Tool for Uncertainty Modeling and Evaluation for IoT Cloud Systems</li>
-					    </li>
-					  <li>
+									</ul>
+									</p>
+								</div>
+							</div>
+							<div class="col-md-4 content-middle2">
+								<!--a href="single.html"><img src="images/pi1.jpg " class="img-responsive" alt=""></a-->
+								<div class="content-middle3">
+									<h4>Concepts & Prototypes</h4>
+									<label></label>
+									<ul>
+										<li>
+											<a href="http://github.com/rdsea/IoTCloudSamples">IoTCloudSamples</a>: IoT
+											Cloud Units for Research and Development
+										</li>
+										<li><a href="https://github.com/rdsea/kalbi">KALBI</a>- Blockchain knowledge,
+											artefacts, benchmarks and utilities</li>
+										<li>
+											<a href="http://github.com/rdsea/T4UME">T4UME</a> - Tool for Uncertainty
+											Modeling and Evaluation for IoT Cloud Systems
+										</li>
+										</li>
+										<li>
 
-					    <a href="http://sincconcept.github.io/">SINC</a> - Slicing IoT, Network functions, and Clouds</li>
-					    </li>
-					  <li><a href="http://sincconcept.github.io/HINC/">HINC </a> - Harnomizing IoT, Network Functions, and Clouds</li>
-	<li><a href="https://github.com/rdsea/COMOT4U">COMOT4U </a> - Control, Monitoring, and Testing under and for Uncertainties,  including <a href="http://tuwiendsg.github.io/RuntimeVerification/">Runtime Health Verification of CPS</a></li>
-	<li><a href="http://tuwiendsg.github.io/iCOMOT">iCOMOT </a> for Control, Monitoring, Governance and Configuration of IoT Cloud Systems</li>
-	<li><a href="http://dungcao.github.io/marsa/">MARSA </a> - A Marketplace for Realtime Human-Sensing Data</li>
-	<li><a href="http://tuwiendsg.github.io/SALSA/">SALSA - A Framework for Dynamic Configuration of IoT Cloud Systems</a></li>
-	<li><a href="https://github.com/rdsea/SOD1"> Data and Service Contracts</a></li>
-</ul>
-				</div>
-			</div>
-			<div class="col-md-4 content-middle2">
-				<!--a href="single.html"><img src="images/pi2.jpg " class="img-responsive" alt=""></a-->
-				<div class="content-middle3">
-				  <h4><a href="publications.html">Publications & Theses</a></h4>
-				  <p>See <a href="publications.html">our full list here</a>. Three recent publications:</p>
-					<label></label>
-					<ul>
-					  	<li>
-	  Hong-Linh Truong, Minh-Tri Nguyen, <b>QoA4ML – A Framework for Supporting Contracts in Machine Learning Services</b>, (<a href="https://research.aalto.fi/files/65786264/main.pdf">Accepted PDF</a>), <a href="https://conferences.computer.org/icws/2021/">2021 IEEE International Conference on Web Services (ICWS)</a>, September 5-10, 2021.  
-	</li>
-		<li>
-	 Rohit Raj, Hong-Linh Truong, <b>On Analysis of Security and Elasticity Dependency in IIoT Platform Services</b>, (<a href="https://research.aalto.fi/files/65786325/main.pdf">Accepted PDF</a>), <a href="https://conferences.computer.org/scc/2021/">2021 IEEE International Conference on Services Computing (SCC)</a>, September 5-10, 2021.  
-	</li>
-					  <li>
-	  Hong-Linh Truong, <a href="https://research.aalto.fi/files/61274956/Truong_Using.1_s2.0_S2542660521000275_main.pdf">"Using IoTCloudSamples as a Software Framework for Simulations of Edge Computing Scenarios"</a>, Internet of Things: Engineering Cyber Physical Human Systems, 2021
-		</li>		
-		<br>
+											<a href="http://sincconcept.github.io/">SINC</a> - Slicing IoT, Network
+											functions, and Clouds
+										</li>
+										</li>
+										<li><a href="http://sincconcept.github.io/HINC/">HINC </a> - Harnomizing IoT,
+											Network Functions, and Clouds</li>
+										<li><a href="https://github.com/rdsea/COMOT4U">COMOT4U </a> - Control,
+											Monitoring, and Testing under and for Uncertainties, including <a
+												href="http://tuwiendsg.github.io/RuntimeVerification/">Runtime Health
+												Verification of CPS</a></li>
+										<li><a href="http://tuwiendsg.github.io/iCOMOT">iCOMOT </a> for Control,
+											Monitoring, Governance and Configuration of IoT Cloud Systems</li>
+										<li><a href="http://dungcao.github.io/marsa/">MARSA </a> - A Marketplace for
+											Realtime Human-Sensing Data</li>
+										<li><a href="http://tuwiendsg.github.io/SALSA/">SALSA - A Framework for Dynamic
+												Configuration of IoT Cloud Systems</a></li>
+										<li><a href="https://github.com/rdsea/SOD1"> Data and Service Contracts</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-4 content-middle2">
+								<!--a href="single.html"><img src="images/pi2.jpg " class="img-responsive" alt=""></a-->
+								<div class="content-middle3">
+									<h4><a href="publications.html">Publications & Theses</a></h4>
+									<p>See <a href="publications.html">our full list here</a>. Three recent
+										publications:</p>
+									<label></label>
+									<ul>
+										<li>
+											My-Linh Nguyen, Thao Phung, Duong-Hai Ly Hong-Linh Truong, <b>Holistic
+												Explainability Requirements for End-to-End Machine Learning in IoT Cloud
+												Systems</b>, (<a
+												href="https://acris.aalto.fi/ws/portalfiles/portal/66495274/main.pdf">Accepted
+												PDF</a>), <a href="https://conf.researchr.org/home/RE-2021">2021 IEEE
+												International Requirements Engineering Conference (REW)</a>, September
+											20-24, 2021.
+										</li>
+										<li>
+											Hong-Linh Truong, Minh-Tri Nguyen, <b>QoA4ML – A Framework for Supporting
+												Contracts in Machine Learning Services</b>, (<a
+												href="https://research.aalto.fi/files/65786264/main.pdf">Accepted
+												PDF</a>), <a href="https://conferences.computer.org/icws/2021/">2021
+												IEEE International Conference on Web Services (ICWS)</a>, September
+											5-10, 2021.
+										</li>
+										<li>
+											Rohit Raj, Hong-Linh Truong, <b>On Analysis of Security and Elasticity
+												Dependency in IIoT Platform Services</b>, (<a
+												href="https://research.aalto.fi/files/65786325/main.pdf">Accepted
+												PDF</a>), <a href="https://conferences.computer.org/scc/2021/">2021 IEEE
+												International Conference on Services Computing (SCC)</a>, September
+											5-10, 2021.
+										</li>
+										<li>
+											Hong-Linh Truong, <a
+												href="https://research.aalto.fi/files/61274956/Truong_Using.1_s2.0_S2542660521000275_main.pdf">"Using
+												IoTCloudSamples as a Software Framework for Simulations of Edge
+												Computing Scenarios"</a>, Internet of Things: Engineering Cyber Physical
+											Human Systems, 2021
+										</li>
+										<br>
 
-					  <li> <a href="publications.html">See the full list of publications</a> </li>
-					</ul>
+										<li> <a href="publications.html">See the full list of publications</a> </li>
+									</ul>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
 				</div>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-		</div>
-	</div>
-	<!--div class="event-news">
+				<!--div class="event-news">
 		<div class="container">
 		<div class="content-events">
 				<h3> Events &amp; News</h3>
@@ -624,54 +784,56 @@ In our work, we focus on  engineering  analytics for: <strong>Systems and their 
 				</div>
 			</div>
 </div-->
-</div>
-<!--//content-->
-<!--footter-->
-<div class="footer">
-	<div class="footer-mid">
-			<div class="container">
-				<!--div class="col-sm-3 ft-grid1">
+			</div>
+			<!--//content-->
+			<!--footter-->
+			<div class="footer">
+				<div class="footer-mid">
+					<div class="container">
+						<!--div class="col-sm-3 ft-grid1">
 					<h3>Location</h3>
 					<p>Argentinierstrasse 8/184-1</p>
 					<p>A-1040, Vienna</p>
 					<p>Austria</p>
 				</div-->
-				<div class="col-sm-3 ft-grid2">
-				<h3>Follow Us</h3>
-					<ul class="social-in">
-						<li><a href="http://twitter.com/linhsolar"><i class="twitter"> </i></a></li>
-					</ul>
-				</div>
-				<!--div class="col-sm-6 ft-grid1">
+						<div class="col-sm-3 ft-grid2">
+							<h3>Follow Us</h3>
+							<ul class="social-in">
+								<li><a href="http://twitter.com/linhsolar"><i class="twitter"> </i></a></li>
+							</ul>
+						</div>
+						<!--div class="col-sm-6 ft-grid1">
 					<h3>Newsletter</h3>
 					<form>
 						<input type="text" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
 						<input type="submit" value="Subscribe">
 					</form>
 				</div-->
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-		<div class="class-footer">
-			<div class="container">
-				<div class="col-md-6 footer-nav">
-					<ul>
-						<li ><a  href="index.html"  >Home</a></li>
-						<li><a  href="index.html"  >About</a></li>
-						<li><a href="index.html"  >Results</a></li>
-						<li><a  href="publications.html" >Publications</a></li>
-						<!--li><a  href="news.html" > News</a></li-->
-						<li><a href="index.html" >Contact</a></li>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="class-footer">
+					<div class="container">
+						<div class="col-md-6 footer-nav">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="index.html">About</a></li>
+								<li><a href="index.html">Results</a></li>
+								<li><a href="publications.html">Publications</a></li>
+								<!--li><a  href="news.html" > News</a></li-->
+								<li><a href="index.html">Contact</a></li>
 
-					</ul>
+							</ul>
+						</div>
+						<div class="col-md-6 footer-grid">
+							<p>© 2016 SEA. All rights reserved | Design by <a href="http://w3layouts.com/"
+									target="_blank">W3layouts</a> </p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
 				</div>
-				<div class="col-md-6 footer-grid">
-					<p >© 2016 SEA. All rights reserved | Design by <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
-				</div>
-					<div class="clearfix"> </div>
-		</div>
-	</div>
-</div>
-<!--//footter-->
+			</div>
+			<!--//footter-->
 </body>
+
 </html>
