@@ -1,0 +1,13 @@
+Fully-funded Doctoral Students
+
+We are looking for PhD students doing IoT, Edge, and Cloud services 
+engineering, especially ML analytics across IoT, Edge, Cloud and HPC 
+continuum (monitoring, analysis, observability, experiments) to achieve 
+robustness, reliability, resilience and elasticity for ML/big data systems. 
+
+Pls. also check our Doctoral Programme in Science: 
+   https://into.aalto.fi/display/endoctoralsci/Science 
+and our team activities: https://rdsea.github.io.
+
+ 
+
